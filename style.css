@@ -1,0 +1,99 @@
+div {
+    border: 1px solid red;
+  }
+  .flex-row{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  .flex-column{
+    justify-content: space-between;
+    display: flex;
+    width: 636px;
+    height: 557px;
+  }
+  .flex-row_frameworks-inner{
+    width: 636px;
+    height: 290px;
+  }
+  .footer{
+    display: flex;
+    height: 95px;
+    justify-content: center; 
+  }
+  .header{
+    display: flex;
+    height: 95px;
+  }
+  .header-link{
+    margin: auto;
+  }
+  .logo{
+    height: 25px;
+    width: 145px;
+    background-image: url(https://pictures.s3.yandex.net/logo_black.png);
+    Background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+  }
+  .menu{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    min-height: 75px;
+    align-items: center;
+  }
+  .project_slider{
+    background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
+    width: 306px;
+    height: 290px;
+  }
+  .project_reactive{
+    background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
+    width: 306px;
+    height: 290px;
+  }
+  .project{
+    background-position:center center;
+    background-size: cover;
+  }
+  .project_beginner{
+    width: 636px;
+    height: 430px;
+  }
+  .project_music-album{
+    background-image: url(https://code.s3.yandex.net/web-code/album.png);
+  }
+  .project_design-principles{
+    background-image: url(https://code.s3.yandex.net/web-code/design.png);
+  }
+  .project_procrastinate{
+    width: 636px;
+    height: 557px;
+  }
+  .project-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .project_p5{
+    width: 636px;
+    height: 240px;
+  }
+  .project_vanilla{
+    width: 306px;
+    height: 290px;
+  }
+  .project_how-to-study{
+    order:3;
+    background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+  }
+  .project_across-russia{
+    order:2;
+    background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+  }
+  .project_mesto{
+    order:1;
+    background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
+  }
